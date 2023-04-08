@@ -21,12 +21,12 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   uhuru,
   thrillswap,
-  jobit,
   tripguide,
   threejs,
+  hoobank,
+  dsamerch,
 } from "../assets";
 
 export const navLinks = [
@@ -70,7 +70,7 @@ const technologies = [
   },
   {
     name: "Ethers JS",
-    icon: ethers
+    icon: ethers,
   },
   {
     name: "JavaScript",
@@ -110,7 +110,6 @@ const technologies = [
 ];
 
 const experiences = [
-
   {
     title: "Blockchain Developer",
     company_name: "HeasdsbyBnxn",
@@ -258,6 +257,51 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "hoobank",
+    description: "The front-end design of a banking application",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source_code_link: "https://github.com/3ill/Hoobank",
+  },
+
+  {
+    name: "dsam3rch",
+    description: "A 3D react project powered by AI",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dsamerch,
+    source_code_link: "https://github.com/3ill/DSAM3RCH.git",
   },
 ];
 

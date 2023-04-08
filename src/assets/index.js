@@ -24,15 +24,15 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import tripguide from "./tech/tripguide.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import thrillswap from "./thrillswap.png"
-import uhuru from "./uhuru.png"
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import thrillswap from "./thrillswap.png";
+import uhuru from "./uhuru.png";
+import hoobank from "./hoobank.png";
+import dsamerch from "./dasmerch.png";
 
 export {
   logo,
@@ -62,9 +62,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   uhuru,
   thrillswap,
-  jobit,
   tripguide,
+  hoobank,
+  dsamerch,
 };
