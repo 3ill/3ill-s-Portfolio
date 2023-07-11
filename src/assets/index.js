@@ -28,11 +28,13 @@ import tripguide from "./tech/tripguide.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import eclat from "./company/eclat.png";
 
 import thrillswap from "./thrillswap.png";
 import uhuru from "./uhuru.png";
 import hoobank from "./hoobank.png";
 import dsamerch from "./dasmerch.png";
+import dsascript from "./dsascript.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   tripguide,
   hoobank,
   dsamerch,
+  dsascript,
+  eclat,
 };

@@ -27,6 +27,8 @@ import {
   threejs,
   hoobank,
   dsamerch,
+  dsascript,
+  eclat,
 } from "../assets";
 
 export const navLinks = [
@@ -163,6 +165,19 @@ const experiences = [
       "Testing smart contracts to ensure security",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+
+  {
+    title: "Frontend Developer",
+    company_name: "Eclat",
+    icon: eclat,
+    iconBg: "#383E56",
+    date: "February 2023 - Present",
+    points: [
+      "Developing responsive designs and animations",
+      "Integrating functionalities to the frontend design",
+      "Routing and maintaining of pages",
     ],
   },
 ];
@@ -302,6 +317,30 @@ const projects = [
     ],
     image: dsamerch,
     source_code_link: "https://github.com/3ill/DSAM3RCH.git",
+  },
+
+  {
+    name: "Dsascript",
+    description: "An article summarizer application powered by AI",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dsascript,
+    source_code_link: "https://github.com/3ill/DSA-SCRIPT.git",
   },
 ];
 
